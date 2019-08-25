@@ -3,6 +3,6 @@
   become: yes
   tasks: 
   - name: install java
-  apt:
-  - name: openjdk-8-jre
-    state: present
+    apt:
+      name: openjdk-8-jre
+      state: present
